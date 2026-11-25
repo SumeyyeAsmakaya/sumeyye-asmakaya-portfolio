@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Sümeyye Asmakaya</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container d-flex align-items-center justify-content-between position-relative">
+    <a href="index-en.html" class="brand-logo">
+      <span class="brand-dot"></span>
+      <span>SÜMEYYE ASMAKAYA</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index-en.html" class="">Home</a></li>
+<li><a href="about.html" class="">About</a></li>
+<li><a href="projects.html" class="">Projects</a></li>
+<li><a href="gallery.html" class="">Gallery</a></li>
+<li><a href="blog-en.html" class="active">Blog</a></li>
+<li><a href="contact.html" class="">Contact</a></li>
+
+      <li>
+        <a href="blog.html" class="lang-pill">
+          <i class="bi bi-globe2"></i> TR
+        </a>
+      </li>
+      <li class="ms-lg-1">
+        <button id="themeToggle" class="theme-btn" aria-label="Tema Değiştir">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </li>
+    </ul>
+
+    <button id="mobileMenuBtn" class="btn d-lg-none border" aria-label="Menü">
+      <i class="bi bi-list fs-4"></i>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<div class="page-banner">
+  <div class="container">
+    <span class="section-eyebrow">Articles & Notes</span>
+    <h1 class="section-title mb-1">Blog</h1>
+    <p class="text-secondary mb-0">Technical articles on videography, responsive web design, and AI workflow automation.</p>
+  </div>
+</div>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="row g-4">
+
+      <div class="col-lg-4">
+        <article class="modern-card">
+          <img src="assets/img/blog1.png" class="modern-card-img" alt="Adobe Premiere Multicam">
+          <div class="modern-card-body">
+            <div class="blog-meta">
+              <span><i class="bi bi-calendar3"></i> Nov 12, 2026</span>
+              <span><i class="bi bi-folder2-open"></i> <strong>Category:</strong> Videography, Animation</span>
+            </div>
+            <h4>My Multicam Video Editing Project in Adobe Premiere Pro</h4>
+            <p class="text-secondary small flex-grow-1">
+              How can multiple camera angles make a video more engaging? In this article, I share my experience with Adobe Premiere Pro's Multicam feature, exploring audio synchronization, camera switching, and creative editing techniques through my own video project.
+            </p>
+            <div class="mb-3">
+              <small class="text-muted d-block mb-1"><strong>Tags:</strong></small>
+              <span class="tag-badge secondary">#Adobe</span>
+              <span class="tag-badge secondary">#Premiere</span>
+              <span class="tag-badge secondary">#video editing</span>
+              <span class="tag-badge secondary">#multicam</span>
+            </div>
+            <button class="btn-outline-custom w-100 justify-content-center" data-bs-toggle="modal" data-bs-target="#blogModalEn1">
+              Read Article <i class="bi bi-book"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4">
+        <article class="modern-card">
+          <img src="assets/img/blog2.png" class="modern-card-img" alt="Responsive Web Design">
+          <div class="modern-card-body">
+            <div class="blog-meta">
+              <span><i class="bi bi-calendar3"></i> Nov 15, 2026</span>
+              <span><i class="bi bi-folder2-open"></i> <strong>Category:</strong> Web Design, UI/UX</span>
+            </div>
+            <h4>Responsive Web Design: Developing My Own Portfolio Website</h4>
+            <p class="text-secondary small flex-grow-1">
+              How can a website adapt to different screen sizes? In this article, I share the responsive design techniques, Bootstrap experience, and mobile compatibility tests from developing my own portfolio website.
+            </p>
+            <div class="mb-3">
+              <small class="text-muted d-block mb-1"><strong>Tags:</strong></small>
+              <span class="tag-badge secondary">#HTML5</span>
+              <span class="tag-badge secondary">#CSS3</span>
+              <span class="tag-badge secondary">#responsive</span>
+              <span class="tag-badge secondary">#web design</span>
+            </div>
+            <button class="btn-outline-custom w-100 justify-content-center" data-bs-toggle="modal" data-bs-target="#blogModalEn2">
+              Read Article <i class="bi bi-book"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <div class="col-lg-4">
+        <article class="modern-card">
+          <img src="assets/img/blog3.png" class="modern-card-img" alt="AI Workflow Automation">
+          <div class="modern-card-body">
+            <div class="blog-meta">
+              <span><i class="bi bi-calendar3"></i> Nov 18, 2026</span>
+              <span><i class="bi bi-folder2-open"></i> <strong>Category:</strong> Data Collection, Automation</span>
+            </div>
+            <h4>Automated News Collection and Data Transfer with n8n</h4>
+            <p class="text-secondary small flex-grow-1">
+              How can online news be collected automatically? In this article, I share my experience with n8n, RSS feeds, scheduled workflows, and Google Sheets integration.
+            </p>
+            <div class="mb-3">
+              <small class="text-muted d-block mb-1"><strong>Tags:</strong></small>
+              <span class="tag-badge secondary">#n8n</span>
+              <span class="tag-badge secondary">#RSS</span>
+              <span class="tag-badge secondary">#GoogleSheets</span>
+              <span class="tag-badge secondary">#automation</span>
+            </div>
+            <button class="btn-outline-custom w-100 justify-content-center" data-bs-toggle="modal" data-bs-target="#blogModalEn3">
+              Read Article <i class="bi bi-book"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Modals EN -->
+<div class="modal fade" id="blogModalEn1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content" style="background: var(--bg-surface); color: var(--text-primary);">
+      <div class="modal-header border-bottom">
+        <div>
+          <span class="tag-badge">Videography, Animation</span>
+          <h5 class="modal-title mt-1">My Multicam Video Editing Project in Adobe Premiere Pro</h5>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+<p>Watching a video from different camera angles can make storytelling more dynamic and engaging. Adobe Premiere Pro's Multicam feature allows footage recorded with multiple cameras to be edited within a single timeline.</p>
+<h6><strong>Filming and Synchronization Process</strong></h6>
+<p>For my personal introduction video, I recorded the same speech from two different camera angles. Using the Create Multi-Camera Source Sequence feature in Premiere Pro, I synchronized the footage through audio waveforms. This allowed me to create smooth transitions between the two cameras.</p>
+<h6><strong>Video Editing and Visual Effects</strong></h6>
+<p>During the editing process, I switched between camera angles to create a more engaging video. I also used intro animation, Gaussian Blur, masking, Cross Dissolve, and keyframe techniques to enhance the visual quality. At the end of the video, I created a slideshow using photographs.</p>
+<h6><strong>What Did I Learn from This Project?</strong></h6>
+<p>I discovered how Multicam editing simplifies the video production process and saves time. This project helped me better understand the importance of camera angles, audio and video synchronization, and creative visual effects in storytelling.</p>
+
+        <p class="mb-0 small text-secondary"><strong>Tags:</strong> Adobe, Premiere, video editing, multicam</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="blogModalEn2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content" style="background: var(--bg-surface); color: var(--text-primary);">
+      <div class="modal-header border-bottom">
+        <div>
+          <span class="tag-badge">Web Design, UI/UX</span>
+          <h5 class="modal-title mt-1">Responsive Web Design: Developing My Own Portfolio Website</h5>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+       <p>Today, it is important for websites to display properly not only on computers but also on smartphones and tablets. Responsive design is a web design approach that improves the user experience by adapting to different screen sizes.</p>
+       <h6>Designing My Portfolio Website</h6>
+       <p>While developing my portfolio website, I used HTML5, CSS3, and Bootstrap. I focused on responsive layouts, proportional images, and readable content across different devices.</p>
+       <h6>Mobile Compatibility and User Experience</h6>
+       <p>I used a collapsible navigation menu to make browsing easier on mobile devices. I also created a design that allows users to switch between light and dark themes according to their preferences.</p>
+      <h6>Testing Different Screen Sizes</h6>
+      <p>Using Chrome DevTools, I examined the mobile, tablet, and desktop versions of my website and checked the images, buttons, and page layouts.</p>
+      <h6>What Did I Learn from This Project?</h6>
+      <p>I learned that responsive design is not only about visual aesthetics but also about accessibility, usability, and user experience. This project helped me improve my web development skills.</p>
+   <p class="mb-0 small text-secondary"><strong>Tags:</strong> HTML5, CSS3, Bootstrap, responsive, web design</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="blogModalEn3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content" style="background: var(--bg-surface); color: var(--text-primary);">
+      <div class="modal-header border-bottom">
+        <div>
+          <span class="tag-badge">Data Collection, Automation</span>
+          <h5 class="modal-title mt-1">Automated News Collection and Data Transfer with n8n</h5>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Manually following constantly updated online news can be time-consuming. n8n is a workflow automation platform that connects different applications and helps automate repetitive tasks.</p>
+        <h6>Automated News Collection</h6>
+        <p>In my project, I created a scheduled workflow using the Schedule Trigger node. With the RSS Read node, I collected news headlines, links, and publication dates from DonanımHaber.</p>
+        <h6>Data Transfer with Google Sheets</h6>
+        <p>I worked on Google Sheets integration to organize the collected news data. The goal was to automatically transfer news information into a spreadsheet.</p>
+        <h6>What Did I Learn from This Project?</h6>
+        <p>This project helped me understand RSS feeds, automated data collection, and workflow integration between different platforms. I also discovered how automation can save time in everyday tasks.</p>
+<p class="mb-0 small text-secondary"><strong>Tags:</strong> n8n, RSS, Google Sheets, automation</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center gy-3">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="mb-1 fw-semibold">© 2026 Sümeyye Asmakaya. All Rights Reserved.</p>
+        <small class="text-secondary">Akdeniz University — Computer Programming Portfolio Project</small>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <div class="d-inline-flex gap-2">
+          <a href="https://github.com/SumeyyeAsmakaya" target="_blank" rel="noopener noreferrer" class="theme-btn" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.instagram.com/sumos.7/" target="_blank" rel="noopener noreferrer" class="theme-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="mailto:sasmakaya.7@icloud.com" class="theme-btn" aria-label="E-posta"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

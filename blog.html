@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog | Sümeyye Asmakaya</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="container d-flex align-items-center justify-content-between position-relative">
+    <a href="index.html" class="brand-logo">
+      <span class="brand-dot"></span>
+      <span>SÜMEYYE ASMAKAYA</span>
+    </a>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="index.html" class="">Anasayfa</a></li>
+<li><a href="hakkimda.html" class="">Hakkımda</a></li>
+<li><a href="projeler.html" class="">Projeler</a></li>
+<li><a href="galeri.html" class="">Galeri</a></li>
+<li><a href="blog.html" class="active">Blog</a></li>
+<li><a href="iletisim.html" class="">İletişim</a></li>
+
+      <li>
+        <a href="blog-en.html" class="lang-pill">
+          <i class="bi bi-globe2"></i> EN
+        </a>
+      </li>
+      <li class="ms-lg-1">
+        <button id="themeToggle" class="theme-btn" aria-label="Tema Değiştir">
+          <i class="bi bi-moon-stars-fill"></i>
+        </button>
+      </li>
+    </ul>
+
+    <button id="mobileMenuBtn" class="btn d-lg-none border" aria-label="Menü">
+      <i class="bi bi-list fs-4"></i>
+    </button>
+  </div>
+</header>
+
+<main>
+
+<div class="page-banner">
+  <div class="container">
+    <span class="section-eyebrow">Yazılar & Notlar</span>
+    <h1 class="section-title mb-1">Blog</h1>
+    <p class="text-secondary mb-0">Videografi, web tasarımı ve yapay zekâ otomasyonları üzerine teknik yazılarım.</p>
+  </div>
+</div>
+
+<section class="section-padding">
+  <div class="container">
+    <div class="row g-4">
+
+      <!-- Makale 1 -->
+      <div class="col-lg-4">
+        <article class="modern-card">
+          <img src="assets/img/blog1.png" class="modern-card-img" alt="Adobe Premiere Multicam">
+          <div class="modern-card-body">
+            <div class="blog-meta">
+              <span><i class="bi bi-calendar3"></i> 12 Kasım 2026</span>
+              <span><i class="bi bi-folder2-open"></i> <strong>Kategori:</strong> Videografi, Animasyon</span>
+            </div>
+            <h4>Adobe Premiere Pro ile Multicam Video Kurgu Projem</h4>
+            <p class="text-secondary small flex-grow-1">
+              Bir videoyu farklı kamera açılarından izlemek, anlatımı nasıl daha etkileyici hale getirir? Bu yazıda Adobe Premiere Pro'nun Multicam özelliğini kullanarak hazırladığım video projesinden yola çıkıyor; ses senkronizasyonu, kamera geçişleri ve yaratıcı kurgu teknikleriyle ilgili deneyimlerimi paylaşıyorum.
+            </p>
+            <div class="mb-3">
+              <small class="text-muted d-block mb-1"><strong>Etiketler:</strong></small>
+              <span class="tag-badge secondary">#Adobe</span>
+              <span class="tag-badge secondary">#Premiere</span>
+              <span class="tag-badge secondary">#video kurgu</span>
+              <span class="tag-badge secondary">#multicam</span>
+            </div>
+            <button class="btn-outline-custom w-100 justify-content-center" data-bs-toggle="modal" data-bs-target="#blogModal1">
+              Makaleyi Oku <i class="bi bi-book"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Makale 2 -->
+      <div class="col-lg-4">
+        <article class="modern-card">
+          <img src="assets/img/blog2.png" class="modern-card-img" alt="Responsive Web Tasarım">
+          <div class="modern-card-body">
+            <div class="blog-meta">
+              <span><i class="bi bi-calendar3"></i> 15 Kasım 2026</span>
+              <span><i class="bi bi-folder2-open"></i> <strong>Kategori:</strong> Web Tasarım, UI/UX</span>
+            </div>
+            <h4>Responsive Web Tasarımı: Kendi Portföy Sitemi Geliştirirken</h4>
+            <p class="text-secondary small flex-grow-1">
+              Bir web sitesi farklı ekran boyutlarına nasıl uyum sağlar? Bu yazıda kendi portföy sitemi geliştirirken kullandığım responsive tasarım tekniklerini, Bootstrap deneyimimi ve mobil uyumluluk testlerimi paylaşıyorum.
+            </p>
+            <div class="mb-3">
+              <small class="text-muted d-block mb-1"><strong>Etiketler:</strong></small>
+              <span class="tag-badge secondary">#HTML5</span>
+              <span class="tag-badge secondary">#CSS3</span>
+              <span class="tag-badge secondary">#responsive</span>
+              <span class="tag-badge secondary">#web tasarım</span>
+            </div>
+            <button class="btn-outline-custom w-100 justify-content-center" data-bs-toggle="modal" data-bs-target="#blogModal2">
+              Makaleyi Oku <i class="bi bi-book"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+
+      <!-- Makale 3 -->
+      <div class="col-lg-4">
+        <article class="modern-card">
+          <img src="assets/img/blog3.png" class="modern-card-img" alt="Yapay Zeka ve Otomasyon">
+          <div class="modern-card-body">
+            <div class="blog-meta">
+              <span><i class="bi bi-calendar3"></i> 18 Kasım 2026</span>
+              <span><i class="bi bi-folder2-open"></i> <strong>Kategori:</strong> Yapay Zekâ, Otomasyon</span>
+            </div>
+            <h4>n8n ile Otomatik Haber Toplama ve Veri Aktarımı</h4>
+            <p class="text-secondary small flex-grow-1">
+              Haber sitelerinden otomatik olarak veri toplamak mümkün mü? Bu yazıda n8n kullanarak RSS kaynaklarından haber çekme, zamanlanmış iş akışları oluşturma ve verileri Google Sheets'e aktarmak için geliştirdiğim otomasyon projesini anlatıyorum.
+            <div class="mb-3">
+              <small class="text-muted d-block mb-1"><strong>Etiketler:</strong></small>
+              <span class="tag-badge secondary">#n8n</span>
+              <span class="tag-badge secondary">#yapay zeka</span>
+              <span class="tag-badge secondary">#otomasyon</span>
+              <span class="tag-badge secondary">#verimlilik</span>
+            </div>
+            <button class="btn-outline-custom w-100 justify-content-center" data-bs-toggle="modal" data-bs-target="#blogModal3">
+              Makaleyi Oku <i class="bi bi-book"></i>
+            </button>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Blog Modals -->
+<div class="modal fade" id="blogModal1" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content" style="background: var(--bg-surface); color: var(--text-primary);">
+      <div class="modal-header border-bottom">
+        <div>
+          <span class="tag-badge">Videografi, Animasyon</span>
+          <h5 class="modal-title mt-1">Adobe Premiere Pro ile Multicam Video Kurgu Projem</h5>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+      </div>
+      <div class="modal-body">     
+<p>Bir videoyu farklı kamera açılarından izlemek, anlatımı daha dinamik ve etkileyici hale getirebilir. Adobe Premiere Pro'nun Multicam özelliği, birden fazla kamerayla kaydedilen görüntüleri tek bir zaman çizelgesi üzerinden düzenlemeyi sağlar.</p>
+<h6><strong>Çekim ve Senkronizasyon Süreci</strong></h6>
+<p>Hazırladığım kişisel tanıtım videosunda aynı konuşmayı iki farklı kamera açısından kaydettim. Premiere Pro'nun Create Multi-Camera Source Sequence özelliğini kullanarak görüntüleri ses dalgaları üzerinden senkronize ettim. Böylece iki kamera arasında uyumlu geçişler oluşturabildim.</p>
+<h6><strong>Video Kurgu ve Görsel Efektler</strong></h6>
+<p>Kurgu sırasında farklı kamera açıları arasında geçişler yaparak videonun daha akıcı olmasını sağladım. Ayrıca giriş animasyonu, Gaussian Blur, maskeleme, Cross Dissolve ve keyframe tekniklerini kullanarak videoyu görsel açıdan zenginleştirdim. Videonun sonunda ise fotoğraflardan oluşan bir slideshow hazırladım.</p>
+<h6><strong>Bu Projeden Neler Öğrendim?</strong></h6>
+<p>Multicam tekniğinin video düzenleme sürecini kolaylaştırdığını ve zaman kazandırdığını deneyimledim. Bu çalışma sayesinde kamera açılarını doğru kullanmanın, ses ve görüntü uyumunun ve yaratıcı efektlerin video anlatımındaki önemini daha iyi kavradım.</p>
+
+        <p class="mb-0 small text-secondary"><strong>Etiketler:</strong> Adobe, Premiere, video kurgu, multicam</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="blogModal2" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content" style="background: var(--bg-surface); color: var(--text-primary);">
+      <div class="modal-header border-bottom">
+        <div>
+          <span class="tag-badge">Web Tasarım, UI/UX</span>
+          <h5 class="modal-title mt-1">Responsive Web Tasarımı: Kendi Portföy Sitemi Geliştirirken</h5>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+      </div>
+      <div class="modal-body">
+        <p>Günümüzde web sitelerinin yalnızca bilgisayarlarda değil, telefon ve tabletlerde de düzgün görüntülenmesi büyük önem taşıyor. Responsive tasarım, farklı ekran boyutlarına uyum sağlayarak kullanıcı deneyimini iyileştiren bir web tasarım yaklaşımıdır.</p>
+        <h6>Portföy Sitemin Tasarım Süreci</h6>
+        <p>Kendi portföy sitemi geliştirirken HTML5, CSS3 ve Bootstrap teknolojilerinden yararlandım. Sayfaların farklı ekran boyutlarına uyum sağlamasına, görsellerin orantılı görünmesine ve içeriklerin okunabilir olmasına dikkat ettim.</p>
+        <h6>Mobil Uyumluluk ve Kullanıcı Deneyimi</h6>
+        <p>Mobil cihazlarda gezinmeyi kolaylaştırmak için açılır navigasyon menüsü kullandım. Ayrıca kullanıcıların tercihlerine göre açık ve koyu tema arasında geçiş yapabilmesini sağlayan bir tasarım oluşturdum.</p>
+        <h6>Farklı Ekran Boyutlarında Test</h6>
+        <p>Chrome DevTools aracılığıyla web sitemin mobil, tablet ve masaüstü görünümlerini inceleyerek görselleri, butonları ve sayfa yerleşimlerini kontrol ettim.</p>
+        <h6>Bu Projeden Neler Öğrendim?</h6>
+        <p>Responsive tasarımın yalnızca görsel estetikten ibaret olmadığını, aynı zamanda erişilebilirlik, kullanılabilirlik ve kullanıcı deneyimi açısından da önemli olduğunu öğrendim. Bu proje web geliştirme becerilerimi geliştirmeme katkı sağladı.</p>
+<p class="mb-0 small text-secondary"><strong>Etiketler:</strong> HTML5, CSS3, Bootstrap, responsive, web tasarım</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="blogModal3" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content" style="background: var(--bg-surface); color: var(--text-primary);">
+      <div class="modal-header border-bottom">
+        <div>
+          <span class="tag-badge">Yapay Zekâ, Otomasyon</span>
+          <h5 class="modal-title mt-1">n8n ile Otomatik Haber Toplama ve Veri Aktarımı</h5>
+        </div>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Kapat"></button>
+      </div>
+      <div class="modal-body">
+        <p>İnternette sürekli güncellenen haberleri manuel olarak takip etmek oldukça zaman alıcı olabilir. n8n, farklı uygulamaları birbirine bağlayarak bu tür işlemlerin otomatikleştirilmesini sağlayan bir iş akışı otomasyon platformudur.</p>
+         <h6>Otomatik Haber Toplama Süreci</h6>
+        <p>Geliştirdiğim projede Schedule Trigger kullanarak belirli zaman aralıklarında çalışan bir iş akışı oluşturdum. RSS Read düğümü aracılığıyla DonanımHaber sitesindeki güncel haberlerin başlıklarını, bağlantılarını ve yayın tarihlerini elde ettim.</p>
+        <h6>Google Sheets ile Veri Aktarımı</h6>
+        <p>Toplanan haberlerin düzenli bir şekilde saklanabilmesi için Google Sheets entegrasyonu üzerinde çalıştım. Bu entegrasyon sayesinde haber verilerinin elektronik tablolara otomatik olarak aktarılması hedeflendi.</p>
+        <h6>Projenin Bana Kazandırdıkları</h6>
+        <p>Bu proje sayesinde RSS kaynaklarının kullanımını, otomatik veri toplamayı ve farklı platformlar arasında iş akışı oluşturmayı öğrendim. Ayrıca otomasyon teknolojilerinin günlük işlemlerde nasıl zaman tasarrufu sağlayabileceğini keşfettim.</p>
+<p class="mb-0 small text-secondary"><strong>Etiketler:</strong> n8n, RSS, Google Sheets, otomasyon</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container">
+    <div class="row align-items-center gy-3">
+      <div class="col-md-6 text-center text-md-start">
+        <p class="mb-1 fw-semibold">© 2026 Sümeyye Asmakaya. Tüm Hakları Saklıdır.</p>
+        <small class="text-secondary">Akdeniz Üniversitesi — Bilgisayar Programcılığı Portfolyo Projesi</small>
+      </div>
+      <div class="col-md-6 text-center text-md-end">
+        <div class="d-inline-flex gap-2">
+          <a href="https://github.com/SumeyyeAsmakaya" target="_blank" rel="noopener noreferrer" class="theme-btn" aria-label="GitHub"><i class="bi bi-github"></i></a>
+          <a href="https://www.instagram.com/sumos.7/" target="_blank" rel="noopener noreferrer" class="theme-btn" aria-label="Instagram"><i class="bi bi-instagram"></i></a>
+          <a href="mailto:sasmakaya.7@icloud.com" class="theme-btn" aria-label="E-posta"><i class="bi bi-envelope-fill"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>

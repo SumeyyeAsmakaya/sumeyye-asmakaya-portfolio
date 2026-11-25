@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Anasayfa | Sümeyye Asmakaya</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"/>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet"/>
+<link href="assets/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="site-header">
+<div class="container d-flex align-items-center justify-content-between position-relative">
+<a class="brand-logo" href="index.html">
+<span class="brand-dot"></span>
+<span>SÜMEYYE ASMAKAYA</span>
+</a>
+<ul class="nav-links" id="navLinks">
+<li><a class="active" href="index.html">Anasayfa</a></li>
+<li><a class="" href="hakkimda.html">Hakkımda</a></li>
+<li><a class="" href="projeler.html">Projeler</a></li>
+<li><a class="" href="galeri.html">Galeri</a></li>
+<li><a class="" href="blog.html">Blog</a></li>
+<li><a class="" href="iletisim.html">İletişim</a></li>
+<li>
+<a class="lang-pill" href="index-en.html">
+<i class="bi bi-globe2"></i> EN
+        </a>
+</li>
+<li class="ms-lg-1">
+<button aria-label="Tema Değiştir" class="theme-btn" id="themeToggle">
+<i class="bi bi-moon-stars-fill"></i>
+</button>
+</li>
+</ul>
+<button aria-label="Menü" class="btn d-lg-none border" id="mobileMenuBtn">
+<i class="bi bi-list fs-4"></i>
+</button>
+</div>
+</header>
+<main>
+<section class="hero-section">
+<div class="container">
+<div class="row align-items-center gy-5">
+<div class="col-lg-7">
+<div class="hero-badge">
+<i class="bi bi-stars"></i> Akdeniz Üniversitesi • Bilgisayar Programcılığı
+        </div>
+<h1 class="hero-title">
+          Merhaba, ben <span class="gradient-text">Sümeyye Asmakaya</span>
+</h1>
+<div class="hero-typed-wrapper">
+<span id="typed"></span>
+</div>
+<p class="hero-desc">
+          Modern web arayüzleri, masaüstü algoritmaları, grafik animasyon çalışmaları ve yapay zekâ destekli otomasyon projeleri geliştiren bir yazılım öğrencisiyim.
+        </p>
+<div class="d-flex flex-wrap gap-3">
+<a class="btn-primary-custom" href="projeler.html">
+            Projelerimi İncele <i class="bi bi-arrow-right"></i>
+</a>
+<a class="btn-outline-custom" href="hakkimda.html">
+            Hakkımda
+          </a>
+</div>
+</div>
+<div class="col-lg-5">
+<div class="hero-card">
+<img alt="Sümeyye Asmakaya" src="assets/img/profil.jpg"/>
+<div class="hero-floating-tag">
+<div>
+<strong class="d-block">Web &amp; Multimedya Geliştirici</strong>
+<small class="text-secondary">Antalya, Türkiye</small>
+</div>
+<span class="badge bg-success-subtle text-success px-3 py-2 rounded-pill">Portfolyo 2026</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Hakkımda Özeti -->
+<section class="section-padding" style="background: var(--bg-subtle);">
+<div class="container">
+<div class="row align-items-center gy-4">
+<div class="col-lg-5">
+<img alt="Hakkımda Özet" class="img-fluid rounded-4 shadow-sm border" src="assets/img/profil.jpg"/>
+</div>
+<div class="col-lg-7 ps-lg-5">
+<span class="section-eyebrow">Kısaca Ben</span>
+<h2 class="section-title">Kodlama ve Görsel Tasarımı Birleştiren Çözümler Üretiyorum</h2>
+<p class="text-secondary mb-4">
+          Akdeniz Üniversitesi Bilgisayar Programcılığı bölümünde eğitimime devam ediyorum. Web teknolojileri (HTML5, CSS3, JavaScript, C#), veritabanı yönetimi (SQL Server), masaüstü programlama (Delphi) ve Adobe Creative Cloud (Animate, Photoshop, Premiere Pro) araçlarıyla hem teknik hem estetik açıdan güçlü projeler geliştiriyorum.
+        </p>
+<div class="row g-3 mb-4">
+<div class="col-6 col-sm-4">
+<div class="p-3 rounded-3 border bg-body">
+<h4 class="mb-0 text-primary">3.18</h4>
+<small class="text-secondary">AGNO Ortalaması</small>
+</div>
+</div>
+<div class="col-6 col-sm-4">
+<div class="p-3 rounded-3 border bg-body">
+<h4 class="mb-0 text-primary">10+</h4>
+<small class="text-secondary">Akademik &amp; Kişisel Proje</small>
+</div>
+</div>
+<div class="col-12 col-sm-4">
+<div class="p-3 rounded-3 border bg-body">
+<h4 class="mb-0 text-primary">TR / EN</h4>
+<small class="text-secondary">Çift Dilli İçerik</small>
+</div>
+</div>
+</div>
+<a class="btn-primary-custom" href="hakkimda.html">Özgeçmişimi Görüntüle <i class="bi bi-person-lines-fill"></i></a>
+</div>
+</div>
+</div>
+</section>
+<!-- Öne Çıkan Projeler (Kısa Tanıtımlar) -->
+<section class="section-padding">
+<div class="container">
+<div class="d-flex flex-wrap justify-content-between align-items-end section-header">
+<div>
+<span class="section-eyebrow">Seçilmiş Çalışmalar</span>
+<h2 class="section-title mb-0">Öne Çıkan Projelerim</h2>
+</div>
+<a class="btn-outline-custom mt-3 mt-md-0" href="projeler.html">Tüm Projeler <i class="bi bi-grid"></i></a>
+</div>
+<div class="row g-4">
+<div class="col-md-4">
+<div class="modern-card">
+<div class="portfolio-art-frame" style="--art-image: url('../img/proje1.jpg')" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#artwork-1" aria-label="Karlı Manzarada Penguen — görselin tamamını görüntüle"><img alt="Karlı Manzarada Penguen" class="modern-card-img portfolio-art-img" src="assets/img/proje1.jpg"/></div>
+<div class="modern-card-body">
+<div class="mb-2">
+<span class="tag-badge">Adobe Photoshop</span>
+<span class="tag-badge secondary">Adobe Photoshop</span>
+</div>
+<h5>Karlı Manzarada Penguen</h5>
+<p class="text-secondary small flex-grow-1">Karlı bir manzara önünde penguen figürünü öne çıkaran, renk tonları ve görsel bütünlük üzerine hazırlanmış Adobe Photoshop kompozisyonu.</p>
+<a class="fw-semibold text-primary small mt-2" href="projeler.html">Detayları Gör →</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="modern-card">
+<div class="portfolio-art-frame" style="--art-image: url('../img/proje2.jpg')" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#artwork-2" aria-label="Pepsi Reklam Afişi — görselin tamamını görüntüle"><img alt="Pepsi Reklam Afişi" class="modern-card-img portfolio-art-img" src="assets/img/proje2.jpg"/></div>
+<div class="modern-card-body">
+<div class="mb-2">
+<span class="tag-badge">Adobe Photoshop</span>
+<span class="tag-badge secondary">Adobe Photoshop</span>
+</div>
+<h5>Pepsi Reklam Afişi</h5>
+<p class="text-secondary small flex-grow-1">Pepsi kutusunu koyu mavi arka plan ve yansıma efektiyle vurgulayan, ürün odaklı Adobe Photoshop reklam afişi.</p>
+<a class="fw-semibold text-primary small mt-2" href="projeler.html">Detayları Gör →</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="modern-card">
+<div class="portfolio-art-frame" style="--art-image: url('../img/proje4.jpg')" role="button" tabindex="0" data-bs-toggle="modal" data-bs-target="#artwork-4" aria-label="Uzay Temalı Görsel Kompozisyon — görselin tamamını görüntüle"><img alt="Uzay Temalı Görsel Kompozisyon" class="modern-card-img portfolio-art-img" src="assets/img/proje4.jpg"/></div>
+<div class="modern-card-body">
+<div class="mb-2">
+<span class="tag-badge">Adobe Photoshop</span>
+<span class="tag-badge secondary">Adobe Photoshop</span>
+</div>
+<h5>Uzay Temalı Görsel Kompozisyon</h5>
+<p class="text-secondary small flex-grow-1">Galaksi arka planı ve uzayda konumlandırılmış küresel nesnelerle oluşturulmuş, katmanlı Adobe Photoshop kompozisyonu.</p>
+<a class="fw-semibold text-primary small mt-2" href="projeler.html">Detayları Gör →</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Galeri Örnekleri -->
+<section class="section-padding" style="background: var(--bg-subtle);">
+<div class="container">
+<div class="d-flex flex-wrap justify-content-between align-items-end section-header">
+<div>
+<span class="section-eyebrow">Kareler</span>
+<h2 class="section-title mb-0">Galerimden Seçkiler</h2>
+</div>
+<a class="btn-outline-custom mt-3 mt-md-0" href="galeri.html">Tüm Galeri <i class="bi bi-images"></i></a>
+</div>
+<div class="row g-4">
+<div class="col-sm-6 col-lg-3">
+<div class="gallery-card">
+<img alt="Günlük Hayattan Bir Kare" decoding="async" loading="lazy" src="assets/img/galeri1.jpg"/>
+<div class="gallery-caption">
+<h6 class="mb-1">Günlük Hayattan Bir Kare</h6>
+<small class="text-secondary">Akdeniz Üniversitesi yazılım atölyeleri.</small>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="gallery-card">
+<img alt="Gece Işıkları Altında" decoding="async" loading="lazy" src="assets/img/galeri2.jpg"/>
+<div class="gallery-caption">
+<h6 class="mb-1">Gece Işıkları Altında</h6>
+<small class="text-secondary">Deniz kenarında dinlenme ve ilham anları.</small>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="gallery-card">
+<img alt="Geceye Küçük Bir Hatıra" decoding="async" loading="lazy" src="assets/img/galeri3.jpg"/>
+<div class="gallery-caption">
+<h6 class="mb-1">Geceye Küçük Bir Hatıra</h6>
+<small class="text-secondary">Müzik ve sahne atmosferinden bir kare.</small>
+</div>
+</div>
+</div>
+<div class="col-sm-6 col-lg-3">
+<div class="gallery-card">
+<img alt="Deniz Manzarasına Karşı" decoding="async" loading="lazy" src="assets/img/galeri4.jpg"/>
+<div class="gallery-caption">
+<h6 class="mb-1">Deniz Manzarasına Karşı</h6>
+<small class="text-secondary">Kodlama, kurgu ve tasarım geceleri.</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  if (document.getElementById('typed')) {
+    new Typed("#typed", {
+      strings: [
+        "Bilgisayar Programcılığı Öğrencisi",
+        "Web Arayüz & Multimedya Tasarımcısı",
+        "Otomasyon ve Yazılım Geliştirici"
+      ],
+      typeSpeed: 45,
+      backSpeed: 28,
+      loop: true
+    });
+  }
+});
+</script>
+</main>
+<footer class="site-footer">
+<div class="container">
+<div class="row align-items-center gy-3">
+<div class="col-md-6 text-center text-md-start">
+<p class="mb-1 fw-semibold">© 2026 Sümeyye Asmakaya. Tüm Hakları Saklıdır.</p>
+<small class="text-secondary">Akdeniz Üniversitesi — Bilgisayar Programcılığı Portfolyo Projesi</small>
+</div>
+<div class="col-md-6 text-center text-md-end">
+<div class="d-inline-flex gap-2">
+<a aria-label="GitHub" class="theme-btn" href="https://github.com/SumeyyeAsmakaya" rel="noopener noreferrer" target="_blank"><i class="bi bi-github"></i></a>
+<a aria-label="Instagram" class="theme-btn" href="https://www.instagram.com/sumos.7/" rel="noopener noreferrer" target="_blank"><i class="bi bi-instagram"></i></a>
+<a aria-label="E-posta" class="theme-btn" href="mailto:sasmakaya.7@icloud.com"><i class="bi bi-envelope-fill"></i></a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+<script src="assets/js/main.js"></script>
+
+<!-- Full-size artwork previews -->
+<div class="modal fade artwork-lightbox" id="artwork-1" tabindex="-1" aria-labelledby="artwork-title-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content">
+    <div class="modal-header"><h5 class="modal-title" id="artwork-title-1">Karlı Manzarada Penguen</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+    <div class="modal-body"><img src="assets/img/proje1.jpg" alt="Karlı Manzarada Penguen" loading="lazy"></div>
+  </div></div>
+</div>
+<div class="modal fade artwork-lightbox" id="artwork-2" tabindex="-1" aria-labelledby="artwork-title-2" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content">
+    <div class="modal-header"><h5 class="modal-title" id="artwork-title-2">Pepsi Reklam Afişi</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+    <div class="modal-body"><img src="assets/img/proje2.jpg" alt="Pepsi Reklam Afişi" loading="lazy"></div>
+  </div></div>
+</div>
+<div class="modal fade artwork-lightbox" id="artwork-4" tabindex="-1" aria-labelledby="artwork-title-4" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-xl"><div class="modal-content">
+    <div class="modal-header"><h5 class="modal-title" id="artwork-title-4">Uzay Temalı Görsel Kompozisyon</h5><button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+    <div class="modal-body"><img src="assets/img/proje4.jpg" alt="Uzay Temalı Görsel Kompozisyon" loading="lazy"></div>
+  </div></div>
+</div>
+</body>
+</html>
